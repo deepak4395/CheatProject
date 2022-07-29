@@ -1,3 +1,11 @@
 {
-  "git.alwaysShowStagedChangesResourceGroup": false
+  "git.alwaysShowStagedChangesResourceGroup": false,
+  "vsmqtt.brokerProfiles": [
+    {
+      "name": "mqtt profile",
+      "host": "192.168.1.244",
+      "port": 1883,
+      "clientId": "vsmqtt_client"
+    }
+  ]
 }
